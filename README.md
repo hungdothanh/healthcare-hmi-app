@@ -11,7 +11,7 @@ This repository contains a Human-Machine Interface (HMI) healthcare application 
 - [State Diagrams](#state-diagrams)
 - [Design Considerations](#design-considerations)
 - [Testing Considerations](#testing-considerations)
-- [Demo](#demo)
+- [Proof of Concepts](#proof-of-concepts)
 
 ## Introduction
 This project demonstrates a functional prototype for a healthcare app that showcases interactions between doctors and patients. It incorporates login/logout functionality, doctor search, connection management, viewing health information, and managing prescriptions.
@@ -52,20 +52,7 @@ The following state diagrams represent system behavior for different user roles:
 
 ---
 
-### Testing Considerations
-The test diagram describes various test scenarios implemented to ensure the app works as intended. These include login validation, prescription management, and data fetching tests.
-
-[Click here to view the complete Test Diagram](https://crjiw4.axshare.com/?code=c3eb832a63a4647d0b63e1e047577745&id=dsyx7n&p=tests&sc=3&g=1).
-
----
-
-## Demo
-A demo video showcasing the healthcare app functionality:
-- **[Watch Demo](figures/demo/HMI_demo.mp4)**
-
----
-
-## Design Considerations
+### Design Considerations
 | Use Case | Functionality in Mock-up | Interface | Feasible Interface(s) |
 |----------|--------------------------|-----------|-----------------------|
 | UC-01: Login to Account | User (Patient/Doctor) can enter Email and Password to login |  | text field, login button, Reapeater containing Email and Password, Axure's Filter Functions to filter out unmatch Email&Password in Repeater, If-else statment to determine if Email & Password are correct |
@@ -75,4 +62,19 @@ A demo video showcasing the healthcare app functionality:
 
 [Click here to view the complete Design Considerations Diagram](https://crjiw4.axshare.com/?code=c3eb832a63a4647d0b63e1e047577745&id=rvz736&p=designconsiderations&sc=3&g=1).
 
+---
 
+### Testing Considerations
+The test diagram describes various test scenarios implemented to ensure the app works as intended. These include login validation, prescription management, and data fetching tests.
+
+[Click here to view the complete Test Diagram](https://crjiw4.axshare.com/?code=c3eb832a63a4647d0b63e1e047577745&id=dsyx7n&p=tests&sc=3&g=1).
+
+---
+
+## Proof of Concepts
+- 
+
+- A demo video showcasing the healthcare app functionality:
+**[Watch Demo](figures/demo/HMI_demo.mp4)**
+
+---
