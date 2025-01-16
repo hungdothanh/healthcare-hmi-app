@@ -66,14 +66,6 @@ A demo video showcasing the healthcare app functionality:
 ---
 
 ## Design Considerations
-The design of this healthcare app was guided by key considerations to optimize usability and functionality. Refer to [design_considerations.md](design_considerations.md) for detailed explanations of:
-- Interface Design Elements
-- Input and Output Expectations
-- Mockup Implementations for Core Use Cases
-
----
-
-## Use Case Scenarios and Implementations
 | Use Case | Functionality in Mock-up | Interface | Feasible Interface(s) |
 |----------|--------------------------|-----------|-----------------------|
 | UC-01: Login to Account | User (Patient/Doctor) can enter Email and Password to login |  | text field, login button, Reapeater containing Email and Password, Axure's Filter Functions to filter out unmatch Email&Password in Repeater, If-else statment to determine if Email & Password are correct |
