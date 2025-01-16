@@ -1,6 +1,6 @@
 # Healthcare HMI App
 
-This repository contains a Human-Machine Interface (HMI) healthcare application prototype created using ![**Axure RP**](https://www.axure.com/). The application allows doctors and patients to interact through a simulated interface for managing health data, viewing prescriptions, and connecting with medical professionals.
+This repository contains a Human-Machine Interface (HMI) healthcare application prototype created using [**Axure RP**](https://www.axure.com/). The application allows doctors and patients to interact through a simulated interface for managing health data, viewing prescriptions, and connecting with medical professionals.
 
 # Table of Contents
 - [Introduction](#introduction)
