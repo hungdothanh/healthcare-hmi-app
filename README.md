@@ -26,42 +26,42 @@ This project demonstrates a functional prototype for a healthcare app that showc
 ### Use Case Diagram
 The use case diagram describes the various interactions between the user roles (Doctor, Patient) and the system. It outlines key functionalities like login, viewing profiles, connecting with doctors, and managing prescriptions.
 
-![Use Case Diagram](diagrams/use_case_diagram.png)
-
----
-
-### State Diagrams
-The following state diagrams represent system behavior for different user roles.
-
-#### State Diagram for Patient
-The patient’s state diagram illustrates transitions between states like login, menu navigation, doctor search, and viewing prescriptions.
-
-![State Diagram - Patient](diagrams/state_diagram_patient.png)
-
-#### State Diagram for Doctor
-The doctor’s state diagram shows state transitions for actions like viewing patients, creating prescriptions, and logging out.
-
-![State Diagram - Doctor](diagrams/state_diagram_doctor.png)
+![Use Case Diagram](figures/diagram/use_case_diagram.png)
+![Use Case Diagram Patient Doctor](figures/diagram/use_case_diagram_patient_doctor.png)
 
 ---
 
 ### Activity Diagram
-The activity diagram describes the sequence of actions performed by users during typical usage of the app, starting from logging in to viewing prescriptions or managing connected doctors.
+The activity diagram outlines the sequence of actions users follow in the application. Below is a sample section for UC04 and UC05:
 
-![Activity Diagram](diagrams/activity_diagram.png)
+![Activity Diagram UC04 UC05](figures/diagram/activity_diagram_uc04_uc05.png)
+
+[Click here to view the complete Activity Diagram](https://crjiw4.axshare.com/?code=c3eb832a63a4647d0b63e1e047577745&id=mv1nlc&p=activity_diagram&sc=3&g=1).
+
+---
+
+### State Diagrams
+The following state diagrams represent system behavior for different user roles:
+1. The patient’s state diagram illustrates transitions between states like login, menu navigation, doctor search, and viewing prescriptions.
+
+![State Diagram - Patient](figures/diagram/state_diagram_patient.png)
+
+2. The doctor’s state diagram shows state transitions for actions like viewing patients, creating prescriptions, and logging out.
+
+![State Diagram - Doctor](figures/diagram/state_diagram_doctor.png)
 
 ---
 
 ### Testing Considerations
 The test diagram describes various test scenarios implemented to ensure the app works as intended. These include login validation, prescription management, and data fetching tests.
 
-![Test Diagram](diagrams/test_diagram.png)
+[Click here to view the complete Test Diagram](https://crjiw4.axshare.com/?code=c3eb832a63a4647d0b63e1e047577745&id=dsyx7n&p=tests&sc=3&g=1).
 
 ---
 
-### Demo
+## Demo
 A demo video showcasing the healthcare app functionality:
-- **[Watch Demo](demo/healthcare_app_demo.mp4)**
+- **[Watch Demo](figures/demo/HMI_demo.mp4)**
 
 ---
 
@@ -74,17 +74,13 @@ The design of this healthcare app was guided by key considerations to optimize u
 ---
 
 ## Use Case Scenarios and Implementations
-| Use Case ID | Description | Implementation | Interface Components |
-|-------------|-------------|----------------|---------------------|
-| UC-01       | Login to Account | Allows user to input email and password. Checks for validity. | Text fields, login button |
-| UC-02       | Logout of Account | Provides a logout option for both user roles. | Logout button |
-| UC-03       | View Profile | Users can view their profile information. | Profile sub-menu |
-| UC-04       | Search Doctor | Patients can search and filter doctors by symptom. | Search field, filter function |
-| UC-05       | Connect Doctor | Patients select and connect to doctors. | Checkboxes, icons, global variables |
-| UC-06       | Disconnect Doctor | Patients can disconnect from doctors. | Toggle icons, global variables |
-| UC-07       | View Prescriptions | Patients view a list of prescriptions. | Repeater, server request |
+| Use Case | Functionality in Mock-up | Interface | Feasible Interface(s) |
+|----------|--------------------------|-----------|-----------------------|
+| UC-01: Login to Account | User (Patient/Doctor) can enter Email and Password to login |  | text field, login button, Reapeater containing Email and Password, Axure's Filter Functions to filter out unmatch Email&Password in Repeater, If-else statment to determine if Email & Password are correct |
+| UC-02: Logout of Account | User (Patient/Doctor) can click on the Logout button to logout of the Account |  | Logout button, Axure's Interaction go back to Login Page |
+| UC-03: View Profile | User (Patient/Doctor) can click on the Profile sub-menu to view his/her Profile Infomation |  | Rectangle and Icon represent a sub-menu, Repeater containing information of certain Patient/Doctor ID, Axure's Filter |
+| UC-04: Search Doctor | System displays list of available Doctors for Patient to choose | INT-01 | Repeater containng Doctor Name and Expertise |
 
----
+[Click here to view the complete Design Considerations Diagram](https://crjiw4.axshare.com/?code=c3eb832a63a4647d0b63e1e047577745&id=rvz736&p=designconsiderations&sc=3&g=1).
 
-## Mockup and Feasibility
-Functionality in mock-ups was designed using Axure RP features like filters, global variables, and repeaters. The feasibility and real-world implementation were considered when creating components for managing doctor connections, health metrics, and prescription handling.
+
