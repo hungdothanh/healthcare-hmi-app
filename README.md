@@ -73,10 +73,12 @@ The test diagram describes various test scenarios implemented to ensure the app 
 
 # Proof of Concepts
 - User interface with login features to access patient's perspective along with doctor searching functionality:
+
 ![Login](figures/demo/login.png)
 ![Doctor Search](figures/demo/patient_doctor_search.png)
 
 - Doctor's perspective with accessibility to patient's health status:
+
 ![Health Status](figures/demo/doctor_patient_status.png)
 
 - A demo video showcasing the healthcare app functionality:
